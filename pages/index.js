@@ -1,7 +1,8 @@
+import Link from "next/link";
 export default function HomePage() {
   return (
-    <div>
-      <h1>Hello from Next.js</h1>
-    </div>
+    <h1>
+      <Link href="/volumes">Lets go to the movies overview</Link>
+    </h1>
   );
 }

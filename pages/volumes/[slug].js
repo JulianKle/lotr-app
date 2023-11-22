@@ -7,7 +7,10 @@ export default function DynamicRouting() {
   const router = useRouter();
   const { slug } = router.query;
 
-  const movie = volumes.find(({ slug }) => slug === slug);
+  //const movie = volumes.find(({ slug }) => slug === slug);
+
+  const movie = volumes.find((volume) => volume.slug === slug);
+  console.log(movie);
   return (
     <>
       <h1>{movie.title}</h1>

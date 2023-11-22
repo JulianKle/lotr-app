@@ -20,7 +20,7 @@ export default function fellowshipRing() {
         );
       })}
       <Image
-        src="/public/images/the-fellowship-of-the-ring.png"
+        src="/images/the-fellowship-of-the-ring.png"
         height={230}
         width={140}
         alt="Fellowship of the Ring"

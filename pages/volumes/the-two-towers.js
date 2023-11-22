@@ -18,7 +18,7 @@ export default function fellowshipRing() {
         );
       })}
       <Image
-        src="/public/images/the-two-towers.png"
+        src="/images/the-two-towers.png"
         height={230}
         width={140}
         alt="The two Towers"

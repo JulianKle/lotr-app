@@ -18,7 +18,7 @@ export default function fellowshipRing() {
         );
       })}
       <Image
-        src="/public/images/the-return-of-the-king.png"
+        src="/images/the-return-of-the-king.png"
         height={230}
         width={140}
         alt="The Return of the King"
